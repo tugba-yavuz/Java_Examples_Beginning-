@@ -12,3 +12,4 @@ public class ZamaniGoster {
         System.out.println(saniye +" saniye " +dakika+ " dakika ve " +kalanSaniye+ " saniyedir");
     }
 }
+ 
