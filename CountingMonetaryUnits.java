@@ -16,14 +16,28 @@ public class CountingMonetaryUnits {
         System.out.println("Toplam tl :" +toplamTL);
 
         int kalanKurus = toplamKurus%100;
-
         int elliKurus = kalanKurus/50;
         System.out.println("50 kurus miktari :"+elliKurus);
 
         kalanKurus %= 50;
-
         int yirmiBesKurus = kalanKurus/25;
         System.out.println("25 kurus miktari: " + yirmiBesKurus);
+
+        kalanKurus %=25;
+        int onKurus = kalanKurus/10;
+        System.out.println("10 kurus miktari: " + onKurus);
+
+        kalanKurus %=10;
+        int besKurus = kalanKurus/5;
+        System.out.println("5 kurus miktari: " + besKurus);
+
+        kalanKurus %=5;
+        int birKurus = kalanKurus/1;
+        System.out.println("1 kurus miktari: " + birKurus);
+
+
+
+
 
 
 
